@@ -1,0 +1,31 @@
+user:yuchiliu (Yuchi, Liu)
+
+Recipe
+
+===============================
+DESCRIPTION:
+
+Recipe is an iPhone app that enables you to browse recipes, see where you could buy the ingredients, manage your shopping list, set time management alarm for your cooking process, playing music to accompany your cooking, and share to others your achievement.
+
+It has 8 tab bar items that provides different functionalities.
+
+CookBook: is the main interface for user to browse the recipes. It lists a table of different cookstyles. By selecting one row, it navigates to show all recipes in that style. By tapping on the recipe, it navigates to show an image of the recipe, and the ingredients and procedures of the recipe. Just under the photo of the recipes, there are three buttons. 
+The first has an icon of the map. By tapping on it, it will show a map of where you can buy the ingredients. In the map, you can tap on a pin and in its annotation it will show the store’s name, also the left accessory is a car icon, you can tap on it to show a route from your current place to the store. The right accessory is a map icon, by tapping on it, it will open up the apple maps app and show the route to the store. 
+
+The second has an icon of the shop cart. By tapping on it, it will show the list of the ingredients for this recipe. You can tap on each row to select and unselect which ingredient you need to buy. After selecting all you need to buy, tap on the right bar button “Done”. It will show your current shop list.
+
+The third has an icon of heart. You can favorite or unfavorite the recipe by tapping on this button. The heart will change to red or gray accordingly.
+
+Favorite: stores all your favorite recipes. You can tap on a row to see the details of the recipe. You can unfavorite the recipe by swiping left on the table cell and tap on Delete.
+
+Recent: stores your recently viewed recipes.
+
+Search: You can type in the dish you want to search in the search bar, it will show a list of recipes that match the name.
+
+Alarm: select the count down time and then press start. When it’s time. If the app is in background, it will alarm with a notification and icon badge also changes. If the app is active, it will show an alert view.
+
+Photo: In this, you can take a photo of your accomplishment, and share it on Facebook or save locally. You can tap on the text view to type in your post message. Tap on anywhere on screen except the text view to finish typing. You can tap on the “take photo” button to take a photo or tap on “Photo Library” to use your photo from camera roll. Then you can tap on “Share” button to either save locally or share to social networks.
+
+ShopList: You can see the list of ingredients you need to buy. You can also delete an item by swiping left on the item and tap on delete.
+
+Music: You can tap on select music to show the iPod library on your device, you can select multiple songs to play, after tapping on Done, it will start playing the music.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CookStyle" representedClassName="CookStyle" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recipes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Recipe" inverseName="whichStyle" inverseEntity="Recipe" syncable="YES"/>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES">
+        <attribute name="buyPlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="difficulty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredients" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isfavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastviewed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="preptime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="procedures" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="thumbnailData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unique" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="whichStyle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CookStyle" inverseName="recipes" inverseEntity="CookStyle" syncable="YES"/>
+    </entity>
+    <entity name="ShopItem" representedClassName="ShopItem" syncable="YES">
+        <attribute name="buyPlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CookStyle" positionX="403" positionY="342" width="128" height="73"/>
+        <element name="Recipe" positionX="160" positionY="192" width="128" height="223"/>
+        <element name="ShopItem" positionX="171" positionY="524" width="128" height="73"/>
+    </elements>
+</model>
